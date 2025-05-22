@@ -44,6 +44,12 @@ export default function GPTScenarioPage() {
 
       const data = await res.json();
 
+      // ✅ 에러 응답인 경우 사용자에게 토스트 표시
+      if (data.result === 'fail') {
+        showToast(data.message || '❌ 알 수 없는 오류가 발생했습니다. 잠시 후 다시 시도해주세요.', 'error');
+        return;
+      }
+
       console.log('📋 사용된 프롬프트 유형:', data.promptType); // ✅ 시트에서 불러온 프롬프트 확인
       console.log('📋 적용된 프롬프트 내용:', data.systemPrompt); // ✅ 시트에서 불러온 프롬프트 확인
 
@@ -117,7 +123,7 @@ export default function GPTScenarioPage() {
           전송
         </button>
       </div>
-      
+
       {/* ✅ 토스트 메세지 */}
       {toast && (
         <Toast

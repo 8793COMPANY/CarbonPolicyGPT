@@ -86,7 +86,7 @@ button:focus-visible {
 }
 
 /* 💡 다크모드일 때만 색상 다르게 지정 */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
@@ -96,4 +96,4 @@ button:focus-visible {
     background-color: #242424;
     color: rgba(255, 255, 255, 0.87);
   }
-}
+} */

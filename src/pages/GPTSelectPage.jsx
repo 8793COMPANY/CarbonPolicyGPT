@@ -19,7 +19,7 @@ export default function GPTSelectPage() {
     const gptButtonBaseStyle = {
         flex: 1,
         minWidth: '200px',
-        padding: '150px 24px',
+        padding: '140px 10px',
         fontSize: '18px',
         fontWeight: '600',
         // backgroundColor: '#e3f6e5', // 💚 연한 초록
@@ -81,7 +81,7 @@ export default function GPTSelectPage() {
             {/* 중앙 영역 */}
             <div
                 style={{
-                    maxWidth: '1000px',
+                    maxWidth: '1200px',
                     margin: '100px auto 0',
                     textAlign: 'center',
                 }}
@@ -107,6 +107,7 @@ export default function GPTSelectPage() {
                             bgColor: '#e3f6e5',
                             textColor: '#2e7d32',
                             borderColor: '#c8e6c9',
+                            external: false,
                         },
                         {
                             icon: '🎬',
@@ -116,20 +117,48 @@ export default function GPTSelectPage() {
                             bgColor: '#fff0e6',
                             textColor: '#e86b1c',
                             borderColor: '#f5c7a5',
+                            external: false,
                         },
                         {
                             icon: '🧩',
                             title: '정책카드 GPT',
-                            desc: '탄소 중립 정책 카드 제작 응답',
+                            desc: '탄소 중립 정책 카드 관련 응답',
                             path: '/gpt/policy',
                             bgColor: '#eaf3fb',
                             textColor: '#1976d2',
                             borderColor: '#c5ddf2',
+                            external: false,
                         },
-                    ].map(({ icon, title, desc, path, bgColor, textColor, borderColor }) => (
+                        {
+                            icon: '📖',
+                            title: '시나리오 생성',
+                            desc: '탄소 위기 시나리오 생성기',
+                            path: 'https://service-418454234889.us-west1.run.app/',
+                            bgColor: '#f9fbe7',
+                            textColor: '#827717',
+                            borderColor: '#cddc39',
+                            external: true,
+                        },
+                        {
+                            icon: '🎮',
+                            title: '게임데이터 생성기',
+                            desc: '탄소 퀴즈 게임데이터 생성 도우미',
+                            path: 'https://service-611636061164.us-west1.run.app/',
+                            bgColor: '#f3e5f5',
+                            textColor: '#6a1b9a',
+                            borderColor: '#ce93d8',
+                            external: true,
+                        },
+                    ].map(({ icon, title, desc, path, bgColor, textColor, borderColor, external }) => (
                         <button
-                            key={path}
-                            onClick={() => navigate(path)}
+                            key={title}
+                            onClick={() => {
+                                if (external) {
+                                    window.open(path, '_blank'); // 새 창으로 외부 링크 열기
+                                } else {
+                                    navigate(path); // 내부 라우팅
+                                }
+                            }}
                             style={{
                                 ...gptButtonBaseStyle,
                                 backgroundColor: bgColor,

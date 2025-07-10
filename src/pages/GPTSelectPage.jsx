@@ -173,7 +173,7 @@ export default function GPTSelectPage() {
                             icon: '📖',
                             title: '시나리오 생성',
                             desc: '탄소 위기 시나리오 생성기',
-                            path: 'https://service-418454234889.us-west1.run.app/',
+                            path: 'https://api-418454234889.us-west1.run.app/',
                             bgColor: '#f9fbe7',
                             textColor: '#827717',
                             borderColor: '#cddc39',

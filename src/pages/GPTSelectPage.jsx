@@ -53,37 +53,37 @@ export default function GPTSelectPage() {
         {
             title: '일반',
             items: [
-                { label: '초등학생 사전 설문', url: 'https://walla.my/survey/rfqN5esCwrkC75lpBEV5' },
-                { label: '초등학생 사후 설문', url: 'https://walla.my/survey/lZ1yOf5siUZKhck7ZaDD' },
-                { label: '중 · 고등학생 사전 설문', url: 'https://walla.my/survey/zrYr9JXuWAN0DfW6AtTp' },
-                { label: '중 · 고등학생 사후 설문', url: 'https://walla.my/survey/bcJmGCNHTWDymeWBvKsg' },
+                { label: '초등학생 사전 설문', url: 'https://form.kosac.re.kr/v/8GFHkSBvvGgkmOUUuI7a' },
+                { label: '초등학생 사후 설문', url: 'https://form.kosac.re.kr/v/kJn9BEP1v9EFYuO0RPK0' },
+                { label: '중 · 고등학생 사전 설문', url: 'https://form.kosac.re.kr/v/3yzQ5AMHj88ndqPgVOad' },
+                { label: '중 · 고등학생 사후 설문', url: 'https://form.kosac.re.kr/v/4pwHhu0dynMno07X6lpu' },
             ],
         },
         {
             title: '사회적 배려자(다문화)',
             items: [
-                { label: '초등학생 사전 설문', url: 'https://walla.my/survey/aGexTTdfdmjxTFqvisyH' },
-                { label: '초등학생 사후 설문', url: 'https://walla.my/survey/VdH0wmNX7gZt4iZbhr2g' },
-                { label: '중 · 고등학생 사전 설문', url: 'https://walla.my/survey/dkdM8525mAQsrb5wqFat' },
-                { label: '중 · 고등학생 사후 설문', url: 'https://walla.my/survey/iSWyFPAH2ZLcCfclHf7u' },
+                { label: '초등학생 사전 설문', url: 'https://form.kosac.re.kr/v/neWf7Vlf0s50sp1HmuYF' },
+                { label: '초등학생 사후 설문', url: 'https://form.kosac.re.kr/v/8BuMJjSG27BmsBa3iwRb' },
+                { label: '중 · 고등학생 사전 설문', url: 'https://form.kosac.re.kr/v/aOCneQTXFOMnWn2jjPta' },
+                { label: '중 · 고등학생 사후 설문', url: 'https://form.kosac.re.kr/v/pRsBA7SF4WAzqpMlnBea' },
             ],
         },
         {
             title: '사회적 배려자(도서벽지)',
             items: [
-                { label: '초등학생 사전 설문', url: 'https://walla.my/survey/nBSl8e76FvDAcyawS04d' },
-                { label: '초등학생 사후 설문', url: 'https://walla.my/survey/4vGxKWJiodbo0Ss4bZyN' },
-                { label: '중 · 고등학생 사전 설문', url: 'https://walla.my/survey/5joOslh4II4ackOgW7Wq' },
-                { label: '중 · 고등학생 사후 설문', url: 'https://walla.my/survey/iVhuqrpwokd7RKq1eehq' },
+                { label: '초등학생 사전 설문', url: 'https://form.kosac.re.kr/v/6a0CMAWByrvvBC80pu5t' },
+                { label: '초등학생 사후 설문', url: 'https://form.kosac.re.kr/v/n6IeILrcfFBpprHcTx2A' },
+                { label: '중 · 고등학생 사전 설문', url: 'https://form.kosac.re.kr/v/dvvhaDShrpPiE0Xusnvv' },
+                { label: '중 · 고등학생 사후 설문', url: 'https://form.kosac.re.kr/v/Zg0VOAwZnUHXA9SNw7Fx' },
             ],
         },
         {
             title: '사회적 배려자(특수교육)',
             items: [
-                { label: '초등학생 사전 설문', url: 'https://walla.my/survey/pXI8aA93KI2wsdafjsQe' },
-                { label: '초등학생 사후 설문', url: 'https://walla.my/survey/uml7dlLNLkmgdBFKocF4' },
-                { label: '중 · 고등학생 사전 설문', url: 'https://walla.my/survey/Z1WfkvnmoBjwo0LckIEg' },
-                { label: '중 · 고등학생 사후 설문', url: 'https://walla.my/survey/eM7ldHU9rzfTO9aoNqeF' },
+                { label: '초등학생 사전 설문', url: 'https://form.kosac.re.kr/v/FeBldKEyBRxqOkhW4KxF' },
+                { label: '초등학생 사후 설문', url: 'https://form.kosac.re.kr/v/2lZUJDjG5bDXswXOFvcA' },
+                { label: '중 · 고등학생 사전 설문', url: 'https://form.kosac.re.kr/v/YTOkEa3ZJ2VXogD70a5x' },
+                { label: '중 · 고등학생 사후 설문', url: 'https://form.kosac.re.kr/v/LkGvOHCzHnDtLrq3GMOH' },
             ],
         },
     ]
